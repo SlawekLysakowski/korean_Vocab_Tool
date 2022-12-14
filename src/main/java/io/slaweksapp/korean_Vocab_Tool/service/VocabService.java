@@ -1,8 +1,8 @@
 package io.slaweksapp.korean_Vocab_Tool.service;
 
+import io.slaweksapp.korean_Vocab_Tool.model.Vocab;
 import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
-import pl.edu.wszib.vocabtool.model.Vocab;
 
 import java.util.ArrayList;
 

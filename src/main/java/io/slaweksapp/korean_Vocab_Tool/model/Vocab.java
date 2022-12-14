@@ -1,7 +1,9 @@
 package io.slaweksapp.korean_Vocab_Tool.model;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import org.springframework.data.annotation.Id;
+
 
 @Entity
 @Table(name = "vocabs")
