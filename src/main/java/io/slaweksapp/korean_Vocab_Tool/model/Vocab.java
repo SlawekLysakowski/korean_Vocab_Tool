@@ -9,7 +9,8 @@ import org.springframework.data.annotation.Id;
 @Table(name = "vocabs")
 public class Vocab {
 
-        @Id
+    @jakarta.persistence.Id
+    @Id
         @Column(name = "id", nullable = false)
         @GeneratedValue
         private Long id;
