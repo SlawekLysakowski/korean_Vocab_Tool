@@ -1,8 +1,7 @@
 package io.slaweksapp.korean_Vocab_Tool.model;
 
-import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
-import org.springframework.data.annotation.Id;
+import javax.persistence.*;
+
 
 
 @Entity
@@ -15,19 +14,19 @@ public class Vocab {
         @GeneratedValue
         private Long id;
 
-        @NotBlank(message = "New Vocabulary must not be blank")
+//        @NotBlank(message = "New Vocabulary must not be blank")
         @Column(name = "Japanese", nullable = false)
         private String japanese;
 
-        @NotBlank(message = "New Vocabulary must not be blank")
+//        @NotBlank(message = "New Vocabulary must not be blank")
         @Column(name = "Korean", nullable = false)
         private String korean;
 
-        @NotBlank(message = "New Vocabulary must not be blank")
+//        @NotBlank(message = "New Vocabulary must not be blank")
         @Column(name = "English", nullable = false)
         private String english;
 
-        @NotBlank(message = "New Vocabulary must not be blank")
+//        @NotBlank(message = "New Vocabulary must not be blank")
         @Column(name = "Polish", nullable = false)
         private String polish;
 
